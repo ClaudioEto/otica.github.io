@@ -1,0 +1,246 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: rgb(197, 23, 23);
+}
+
+/* TEMAS DO SITE */
+.tema2{
+  background: url(image/backEscuro.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tema1{
+  background: url(image/backClaro.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* BOTÃO ESCURO/CLARO */
+.botao{
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border: #242424 solid;
+  border-radius: 50%;
+  left: 10px;
+  top: 2px;
+  overflow: hidden;
+}
+
+.modos{
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+/*  NAVBAR*/
+.centralizar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(249, 77, 47);
+}
+
+.nav-item{
+  font-size: 28px;
+}
+
+.lin{
+  position: relative;
+  height: 20px;
+}
+
+.infos {
+  background-color: rgb(236, 165, 165);
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgb(0, 0, 0);
+  animation: piscar 3s infinite;
+}
+@keyframes piscar {
+  20% { opacity: 1; } /* Começa com opacidade total */
+  50% { opacity: 0.2; } /* Meio da animação, sem opacidade */
+  100% { opacity: 1; } /* Retorna à opacidade total */
+}
+
+.esp {
+  margin-top: 180px;
+  border-top: #636262;
+  border-width: 2px;
+}
+
+
+/* CARDS DOS serviços */
+.font {
+  font-size: 60px;
+  text-align: center;
+}
+
+.card-footer a {
+  text-decoration: none;
+}
+
+.card-footer a span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #d63529;
+  color: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  transition: background-color 2.5s ease;
+}
+
+.card-footer a span:hover {
+  background-color: #0D6EFD;
+}
+
+/* CARDS DOS ÓCULOS */
+body {
+  font-family: Varela Round;
+  background: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-sl {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 8px 8px 0px 0;
+}
+
+.card-action {
+  position: relative;
+
+  z-index: 2;
+  color: #e26d5c;
+  background: #fff;
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 15px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-heading {
+  font-size: 25px;
+  font-weight: bold;
+  background: #fff;
+  padding: 10px 10px;
+}
+
+.card-text {
+  padding: 10px 10px;
+  background: #fff;
+  font-size: 14px;
+  color: #636262;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 101%;
+  background-color: #D63529;
+  color: #fff;
+  border-radius: 0 0 8px 8px;
+  text-decoration: none;
+}
+
+.card-button:hover {
+  text-decoration: none;
+  background-color: #0D6EFD;
+  color: #fff;
+  transition: background-color 1.5s ease;
+}
+
+.card-sl {
+    max-width: 200px;
+  }
+
+.card-text {
+    font-size: 17px;
+}
+
+.co{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* FORMULÃRIO */
+
+.form{
+  background-color: rgb(200, 200, 200);
+  border-radius: 30px;
+  padding-left: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.ctt{
+  padding-left: 50px;
+}
+
+.formtxt{
+  padding: 10px;
+}
+
+#assuntos{
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .form{
+    background-color: rgb(200, 200, 200);
+    border-radius: 1px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 25px;
+  }
+  
+  .ctt{
+    padding: 10px;
+  }
+}

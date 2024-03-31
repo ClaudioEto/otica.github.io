@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Ótica Alves</title>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<a name="inicio"></a>
+<nav class="navbar navbar-expand-sm bg-red navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#inicio"><img src="/imgs/navbar/logo.jpg" alt="LOGO" width="80px"></a>
+    
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#oculos">ÓCULOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicos">SERVIÇOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">CONTATO</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Pesquise aqui">
+        <button class="btn btn-primary" type="button">Procurar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid mt-3">
+  <h3>Navbar Forms</h3>
+  <p>You can also include forms inside the navigation bar.</p>
+</div>
+
+<div class="infos">TODO O SITE COM 10% DE DESCONTO</div>
+<!-- NAVBAR -->
+
+
+<!-- CARROSSEL -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/imgs/banners/banner1.jpeg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Armação gratuita</h3>
+        <p>Contato - (31) 99836-8271</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/banners/banner2.jpeg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Prêmios</h3>
+        <p>Contato - (31) 99836-8271</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="/imgs/banners/banner3.jpeg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Descontos</h3>
+        <p>Contato - (31) 99836-8271</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<!-- CARROSSEL -->
+
+
+<!-- CHAMADAS EM AZUL (INICI0) -->
+<section class="esp text-center">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+      <i class="bi bi-sunglasses" style="font-size: 3rem; color: #0D6EFD;""></i>
+      <h5 class="text-primary fw-bold mb-3">250+</h5>
+      <h6 class="fw-normal mb-0">Modelos de óculos</h6>
+      <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+      <i class="bi bi-clipboard2-pulse" style="font-size: 3rem; color: #0D6EFD;"></i>
+      <h5 class="text-primary fw-bold mb-3">25+</h5>
+      <h6 class="fw-normal mb-0">Procedimentos com oftalmologista</h6>
+      <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+      <i class="bi bi-shop" style="font-size: 3rem; color: #0D6EFD;"></i>
+      <h5 class="text-primary fw-bold mb-3">30+</h5>
+      <h6 class="fw-normal mb-0">Lojas espalhadas pelo Brasil</h6>
+      <div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+      <i class="fas fa-plug fa-3x text-primary mb-4"></i>
+      <h5 class="text-primary fw-bold mb-3">50 anos</h5>
+      <h6 class="fw-normal mb-0">De experiência no ramo</h6>
+    </div>
+  </div>
+</section>
+<!-- CHAMADAS EM AZUL -->
+
+
+
+<!-- SERVIÇOS -->
+<a name="servicos"></a>
+<h1 class="esp text-center font">
+  <span style="color: #D63529; font-size: 65px;">PRINCIPAIS</span> SERVIÇOS
+</h1>
+<section class="esp serv">
+<div class="esp row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100" id="card1">
+        <img src="/imgs/serviços/exame-oftalmologico.jpg" class="card-img-top" alt="EXAME FOTO">
+        <div class="card-body">
+          <h5 class="card-title">Exame oftalmológico</h5>
+          <p class="card-text">Oferecemos um serviço completo, com diversos tipos de examos diferentes para garantir a melhor opção para a sua saúde</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-body-secondary"><a href="/html/agendar.html"><span class="links_none"">Agende aqui</span></a></small>
+          <a></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" id="card2">
+        <img src="/imgs/serviços/montagem-oculos.webp" class="card-img-top" alt="montagem-oculos">
+        <div class="card-body">
+          <h5 class="card-title">Montagem de óculos</h5>
+          <p class="card-text">Oferecemos um serviço de excelência na montagem dos seus óculos, utilizando máquinas de última geração.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="/html/agendar.html"><span class="links_none"">Agende aqui</span></a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" id="card3">
+        <img src="/imgs/serviços/manutencao-oculos.jpg" class="card-img-top" alt="manutencao-oculos">
+        <div class="card-body">
+          <h5 class="card-title">Manutenção</h5>
+          <p class="card-text">Oferecemos uma manutenção rápida e de qualidade, com especialistas e maquinas de última geração</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="/html/agendar.html"><span class="links_none"">Agende aqui</span></a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SERVIÇOS -->
+
+
+<!-- EXPOSIÇÃO DOS ÓCULOS -->
+<a name="oculos"></a>
+<h1 class="esp text-center font">
+  <span style="color: #D63529; font-size: 65px;">MAIS</span> VENDIDOS
+</h1>
+<div class="esp">
+  <div class="esp row">
+    <div class="col">
+      <div class="card-sl">
+        <div class="card-image">
+          <img src="/imgs/óculos/1.webp"/>
+        </div>
+        <div class="card-heading">
+          Rayban
+        </div>
+        <div class="card-text">
+          Há 30 anos no mercado de armações.
+        </div>
+        <div class="card-text">
+          R$250,00
+        </div>
+        <a href="#" class="card-button"> Comprar</a>
+      </div>
+    </div>
+
+    <div class="col">
+        <div class="card-sl">
+            <div class="card-image">
+                <img src="/imgs/óculos/2.webp"/>
+            </div>
+
+            <div class="card-heading">
+                Louis Vuitton
+            </div>
+            <div class="card-text">
+                Excelência em óculos de luxo.
+            </div>
+            <div class="card-text">
+                R$5.500
+            </div>
+            <a href="#" class="card-button"> Comprar</a>
+        </div>
+    </div>
+
+    <div class="col">
+      <div class="card-sl">
+          <div class="card-image">
+              <img src="/imgs/óculos/3.webp"/>
+          </div>
+
+          <div class="card-heading">
+              Gucci
+          </div>
+          <div class="card-text">
+              Excelência em exclusividade e design
+          </div>
+          <div class="card-text">
+              R$8.000
+          </div>
+          <a href="#" class="card-button"> Comprar</a>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card-sl">
+        <div class="card-image">
+            <img src="/imgs/óculos/4.webp"/>
+        </div>
+        <div class="card-heading">
+          Chanel
+        </div>
+        <div class="card-text">
+            Excelência em design e luxo.
+        </div>
+        <div class="card-text">
+            R$9.900
+        </div>
+        <a href="#" class="card-button"> Comprar</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="esp2">
+  <div class="esp row">
+  <div class="col">
+    <div class="card-sl">
+        <div class="card-image">
+            <img src="/imgs/óculos/5.webp"/>
+        </div>
+        <div class="card-heading">
+            Oakley
+        </div>
+        <div class="card-text">
+            Óculos com excelente qualidade e durabilidade.
+        </div>
+        <div class="card-text">
+            R$800
+        </div>
+        <a href="#" class="card-button"> Comprar</a>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card-sl">
+        <div class="card-image">
+            <img src="/imgs/óculos/6.webp"/>
+        </div>
+        <div class="card-heading">
+            Hugo Boss
+        </div>
+        <div class="card-text">
+            Excelência em qualidade e luxo.
+        </div>
+        <div class="card-text">
+            R$800
+        </div>
+        <a href="#" class="card-button"> Comprar</a>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card-sl">
+        <div class="card-image">
+            <img src="/imgs/óculos/7.webp"/>
+        </div>
+        <div class="card-heading">
+            Balenciaga
+        </div>
+        <div class="card-text">
+            Excelência em óculos extravagantes.
+        </div>
+        <div class="card-text">
+            R$7.400
+        </div>
+        <a href="#" class="card-button"> Comprar</a>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card-sl">
+        <div class="card-image">
+            <img src="/imgs/óculos/8.webp"/>
+        </div>
+        <div class="card-heading">
+            Armani
+        </div>
+        <div class="card-text">
+            Excelência em óculos de luxo.
+        </div>
+        <div class="card-text">
+            R$1.500
+        </div>
+        <a href="#" class="card-button"> Comprar</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="esp2">
+  <div class="esp row">
+    <div class="col">
+        <div class="card-sl">
+            <div class="card-image">
+                <img src="/imgs/óculos/1.webp"/>
+            </div>
+
+            <div class="card-heading">
+                Rayban
+            </div>
+            <div class="card-text">
+                Há 30 anos no mercado de armações.
+            </div>
+            <div class="card-text">
+                R$250,00
+            </div>
+            <a href="#" class="card-button"> Comprar</a>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card-sl">
+            <div class="card-image">
+                <img src="/imgs/óculos/2.webp"/>
+            </div>
+
+            <div class="card-heading">
+                Louis Vuitton
+            </div>
+            <div class="card-text">
+                Excelência em óculos de luxo.
+            </div>
+            <div class="card-text">
+                R$5.500
+            </div>
+            <a href="#" class="card-button"> Comprar</a>
+        </div>
+    </div>
+
+    <div class="col">
+      <div class="card-sl">
+          <div class="card-image">
+              <img src="/imgs/óculos/3.webp"/>
+          </div>
+
+          <div class="card-heading">
+              Gucci
+          </div>
+          <div class="card-text">
+              Excelência em exclusividade e design
+          </div>
+          <div class="card-text">
+              R$8.000
+          </div>
+          <a href="#" class="card-button"> Comprar</a>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="card-sl">
+        <div class="card-image">
+            <img src="/imgs/óculos/4.webp"/>
+        </div>
+        <div class="card-heading">
+          Chanel
+        </div>
+        <div class="card-text">
+            Excelência em design e luxo.
+        </div>
+        <div class="card-text">
+            R$9.900
+        </div>
+        <a href="#" class="card-button"> Comprar</a>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<!-- EXPOSIÇÃO DOS ÓCULOS -->
+
+
+<!-- ÁREA DE CONTATO -->
+<a name="contato"></a>
+<section class="mb-4">
+  <h1 class="esp text-center font">
+    <span style="color: #D63529; font-size: 65px;">ÁREA DE</span> CONTATO
+  </h1>
+  <p class="text-center w-responsive mx-auto mb-5">Seção destinada para contato, caso deseje enviar uma mensagem complete as informações abaixo e envie, responderemos assim que possível!</p>
+
+  <div class="ctt row">
+  
+      <div class="form col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <div class="formtxt row">
+
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="name" class="">Digite seu nome</label>
+                          <input type="text" id="name" name="name" class="form-control">
+                      </div>
+                  </div>
+
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <label for="email" class="">Digite seu email.</label>
+                          <input type="text" id="email" name="email" class="form-control">
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="formtxt row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <label for="select" class="">Selecione o assunto</label><br>                        
+                          <select id="assuntos">
+                            <option>Selecione</option>
+                            <option>Agendamento</option>
+                            <option>Dúvidas</option>
+                            <option>Sugestões</option>
+                            <option>Reclamações</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="formtxt row">
+
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <label for="message">Digite sua mensagem.</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      </div>
+
+                  </div>
+              </div>
+
+          </form>
+
+          <div class="form-check d-flex justify-content-center mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="form4Example4"
+              checked
+            />
+            <label class="form-check-label" for="form4Example4">
+              Enviar uma cópia para o meu e-mail.
+            </label>
+          </div>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="alert_success()" style="margin-top: 20px;">Enviar</a>
+          </div>
+          <div class="status"></div>
+      </div>
+
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Belo Horizonte, MG</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>(31) 9 9102-9472</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>oticasalves@gmail.com</p>
+              </li>
+          </ul>
+      </div>
+
+  </div>
+
+</section>
+<!-- ÁREA DE CONTATO -->
+
+
+
+<!-- FOOTER - FINAL DO SITE -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Acompanhe pelas redes socias</span>
+    </div>
+
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="bi bi-eyeglasses" style="font-size: 1rem;"></i>   Óticas Alves
+          </h6>
+          <p>
+            Somos uma empresa com mais de 50 anos no mercado, garantindo excelência nos nossos serviços.
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Guia
+          </h6>
+          <p>
+            <a href="#oculos" class="text-reset">Óculos</a>
+          </p>
+          <p>
+            <a href="#servicos" class="text-reset">Serviços</a>
+          </p>
+          <p>
+            <a href="#contato" class="text-reset">Contato</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Agendamentos
+          </h6>
+          <p>
+            <a href="#servicos" class="text-reset">Consulta com oftalmologista</a>
+          </p>
+          <p>
+            <a href="#contato" class="text-reset">Agendar manutenção</a>
+          </p>
+
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+          <p><i class="bi bi-geo-alt-fill" style="font-size: 1.3rem;"></i> Belo Horizonte, MG</p>
+          <p><i class="fas fa-envelope me-3"></i><a class="co" href=mailto:agentavery@sample.com target=”_blank”>oticasalves@gmail.com</a></p>
+          <p><i class="fas fa-phone me-3"></i> <a class="co" href=https://wa.me/+5531991040421 target=”_blank”>(31) 99125-9321</a></p>
+          <p><i class="fas fa-print me-3"></i> <a class="co" href=https://wa.me/+5531991040421 target=”_blank”>(31) 98746-2763</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="">Macaco´s Team</a>
+  </div>
+</footer>
+<!-- FOOTER - FINAL DO SITE -->
+    
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
